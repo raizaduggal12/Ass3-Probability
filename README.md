@@ -17,16 +17,15 @@ Only the **NO₂ feature** is used as the input variable for probability density
 ## Methodology
 
 ### Step-1: Roll-Number-Based Non-Linear Transformation
+
 Each NO₂ value **x** is transformed into **z** using:
 
-\[
-z = x + a_r \sin(b_r x)
-\]
+**z = x + aᵣ · sin(bᵣ x)**
 
 where:
 
-- \( a_r = 0.05 \times (r \bmod 7) \)  
-- \( b_r = 0.3 \times ((r \bmod 5) + 1) \)  
+- **aᵣ = 0.05 × (r mod 7)**  
+- **bᵣ = 0.3 × ((r mod 5) + 1)**  
 - **r** = university roll number  
 
 This introduces a **controlled oscillatory variation** in the data distribution.
