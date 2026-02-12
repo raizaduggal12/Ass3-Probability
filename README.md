@@ -36,9 +36,7 @@ This introduces a **controlled oscillatory variation** in the data distribution.
 ### Step-2: Gaussian PDF Modeling
 The transformed variable **z** is modeled using:
 
-\[
-\hat{p}(z) = c \, e^{-\lambda (z - \mu)^2}
-\]
+**p̂(z) = c · exp(−λ (z − μ)²)**
 
 Parameters estimated using **Maximum Likelihood Estimation (MLE)**:
 
@@ -52,9 +50,9 @@ Parameters estimated using **Maximum Likelihood Estimation (MLE)**:
 
 | Parameter | Value |
 |-----------|-------|
-| **μ** | 25.803054 |
-| **λ** | 0.001459 |
-| **c** | 0.021554 |
+| **μ** | 25.809622 |
+| **λ** | 0.0014604 |
+| **c** | 0.0215608 |
 
 The learned Gaussian curve aligns closely with the transformed NO₂ distribution, confirming correct parameter estimation.
 
