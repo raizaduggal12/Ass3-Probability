@@ -49,6 +49,8 @@ Parameters estimated using **Maximum Likelihood Estimation (MLE)**:
 
 | Parameter | Value |
 |-----------|-------|
+| **aᵣ** | **0.0** |
+| **bᵣ** | **1.2** |
 | **μ** | 25.809622 |
 | **λ** | 0.0014604 |
 | **c** | 0.0215608 |
